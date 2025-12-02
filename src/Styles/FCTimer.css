@@ -1,0 +1,153 @@
+@font-face {
+  font-family: 'DigitFont';
+  src: url('./fonts/digital-7.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.FCTimer {
+  height: min-content;
+  width: min-content;
+  position: relative;
+
+
+  .triangle {
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    padding-inline: 40px;
+    z-index: 1;
+    animation: upAndDown 1s ease-in-out infinite;
+
+    transition: transform 0.75s;
+
+    &.left {
+      left: 0px;
+      transform: translate(-100%, -50%);
+    }
+
+    &.right {
+      right: 0px;
+      transform: translate(100%, -50%);
+    }
+
+    &.while-couting {
+      transform: translate(0%, -50%);
+      animation: none;
+    }
+
+  }
+
+  .restart-btn {
+    z-index: 1;
+
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    background-color: red;
+    color: white;
+    transform: translate(-50%, -100%);
+    font-size: 30px;
+    font-family: fantasy;
+    height: 50%;
+    width: 75%;
+    text-align: center;
+    border-radius: 20px 20px 0px 0px;
+    border: rgb(116, 7, 7) 4px solid;
+    border-bottom: none;
+    transition: transform 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover {
+      transform: translate(-50%, -75%);
+    }
+
+    &.pressed {
+      transition: transform 0.1s;
+      transform: translate(-50%, 0px);
+
+    }
+  }
+
+
+  .timer-container {
+    z-index: 2;
+    background-color: rgb(48, 43, 43);
+    border: gray 3px solid;
+    border-radius: 5px;
+    position: relative;
+
+  }
+
+  .timer {
+    width: min-content;
+    height: min-content;
+    font-family: 'DigitFont', monospace;
+    color: red;
+    font-size: 60px;
+    display: flex;
+    padding: 5px 10px;
+
+
+    .blur {
+      font-weight: 800;
+      filter: blur(4px);
+      opacity: 0.5;
+    }
+
+    .dots-container {
+      position: relative;
+
+      .blur {
+        position: absolute;
+        top: 0;
+      }
+    }
+
+    &.stop .dots {
+      animation: blinking 1s ease-in-out infinite;
+    }
+
+    .number {
+      position: relative;
+
+      .ref {
+        opacity: 0.25;
+        color: black;
+      }
+
+      .digits {
+        position: absolute;
+        top: 0;
+      }
+    }
+  }
+}
+
+
+@keyframes blinking {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes upAndDown {
+
+  0%,
+  100% {
+    translate: 0 -20px;
+  }
+
+  50% {
+    translate: 0 0px;
+  }
+}
