@@ -204,7 +204,7 @@ function App() {
               </div>
               <div className='title'>
                 <div className='black-line'></div>
-                <h1>My lonely projects</h1>
+                <h1>My onely projects</h1>
                 <div className='black-line'></div>
               </div>
               <div className='projects'>
