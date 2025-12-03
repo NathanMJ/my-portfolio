@@ -204,7 +204,7 @@ function App() {
               </div>
               <div className='title'>
                 <div className='black-line'></div>
-                <h1>My onely projects</h1>
+                <h1>My lonely projects</h1>
                 <div className='black-line'></div>
               </div>
               <div className='projects'>
@@ -280,7 +280,7 @@ function App() {
 
 
               <div className={`case ${even}`} >
-                <img src={`/history/${c.img}`} alt={c.img} />
+                <img src={`history/${c.img}`} alt={c.img} />
                 <p>{c.txt}</p>
               </div>
 
