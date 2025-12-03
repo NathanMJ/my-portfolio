@@ -210,10 +210,12 @@ function App() {
               <div className='projects'>
                 {projects.map((p, index) => {
                   return <div className='project-container' key={index}>
-                    <div className="top"><img src={p.img} alt="img" /></div>
-                    <div className="bottom">
-                      <h1>{p.title}</h1>
-                      <p>{p.desc}</p>
+                    <p className='description'>{p.desc}</p>
+                    <div className="project">
+                      <div className="top"><img src={p.img} alt="img" /></div>
+                      <div className="bottom">
+                        <h1>{p.title}</h1>
+                      </div>
                     </div>
                   </div>
                 })}
@@ -303,7 +305,7 @@ function App() {
         </div>
 
         <div className='bottom-page'>
-            <div className="transition"></div>
+          <div className="transition"></div>
         </div>
         {headerFooter('footer')}
 
