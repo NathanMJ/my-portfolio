@@ -641,6 +641,9 @@ body::-webkit-scrollbar {
                     @media screen and (min-width: 600px) {
                         /* for screen*/
                         font-size: 20px;
+                        &.odd{
+                            flex-direction: row-reverse;
+                        }
 
                         img {
                             width: 200px;
