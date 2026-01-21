@@ -1,6 +1,8 @@
 import { useEffect, useRef } from "react";
 import { useTranslation } from "../contexts/LanguageContext";
 
+const BASE_URL = import.meta.env.BASE_URL
+
 function FCHero() {
     const { t } = useTranslation();
     const innerRef = useRef(null);
@@ -44,7 +46,7 @@ function FCHero() {
 
             <div className="hero-visual">
                 <div className="img-container">
-                    <img src="./hero/nathan.webp" alt="Nathan" className="profile-img" />
+                    <img src={`${BASE_URL}hero/nathan.webp`} alt="Nathan" className="profile-img" />
                 </div>
             </div>
         </section>

@@ -1,6 +1,8 @@
 import { useState, useRef, useEffect } from 'react';
 import { useLanguage, LANGUAGES } from '../contexts/LanguageContext';
 
+const BASE_URL = import.meta.env.BASE_URL
+
 function FCHeader() {
     const { language, setLanguage, currentLang } = useLanguage();
     const [isLangMenuOpen, setIsLangMenuOpen] = useState(false);
@@ -26,8 +28,8 @@ function FCHeader() {
         <header>
             <div className="header-container">
                 <div className="my-links">
-                    <img src="./logo/github-logo.png" alt="Logo" onClick={() => window.open('https://github.com/NathanMJ/', '_blank')} />
-                    <img src="./logo/linkedin-logo.png" alt="Logo" onClick={() => window.open('https://www.linkedin.com/in/nathan-mimoun-210527348/', '_blank')} />
+                    <img src={`${BASE_URL}logo/github-logo.png`} alt="Logo" onClick={() => window.open('https://github.com/NathanMJ/', '_blank')} />
+                    <img src={`${BASE_URL}logo/linkedin-logo.png`} alt="Logo" onClick={() => window.open('https://www.linkedin.com/in/nathan-mimoun-210527348/', '_blank')} />
                 </div>
 
                 <div className="language-selector" ref={langMenuRef}>

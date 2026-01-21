@@ -1,23 +1,25 @@
 import React, { useRef, useEffect } from 'react';
 import { useTranslation } from '../contexts/LanguageContext';
 
+const BASE_URL = import.meta.env.BASE_URL
+
 export default function FCLab() {
   const { t } = useTranslation();
 
   const panelsData = [
     {
       title: t('lab.projects.chessHelp.title'),
-      imgSrc: './my-lab/chess-help.webp',
+      imgSrc: `${BASE_URL}my-lab/chess-help.webp`,
       description: t('lab.projects.chessHelp.description')
     },
     {
       title: t('lab.projects.pentamino.title'),
-      imgSrc: './my-lab/pentamino-solver.webp',
+      imgSrc: `${BASE_URL}my-lab/pentamino-solver.webp`,
       description: t('lab.projects.pentamino.description')
     },
     {
       title: t('lab.projects.pokeRuppin.title'),
-      imgSrc: './my-lab/poke-ruppin.webp',
+      imgSrc: `${BASE_URL}my-lab/poke-ruppin.webp`,
       description: t('lab.projects.pokeRuppin.description')
     }
   ];
@@ -160,9 +162,9 @@ export default function FCLab() {
       <div className="stage" ref={stageRef}>
         <div className="middle-pipe-container">
           <div className="rings-container">
-            <img className="ring" src="./objects/ring-pipe.webp" alt="" />
-            <img className="ring" src="./objects/ring-pipe.webp" alt="" />
-            <img className="ring" src="./objects/ring-pipe.webp" alt="" />
+            <img className="ring" src={`${BASE_URL}objects/ring-pipe.webp`} alt="" />
+            <img className="ring" src={`${BASE_URL}objects/ring-pipe.webp`} alt="" />
+            <img className="ring" src={`${BASE_URL}objects/ring-pipe.webp`} alt="" />
           </div>
           <div className="pipe"></div>
         </div>

@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { useTranslation } from '../contexts/LanguageContext'
 
+const BASE_URL = import.meta.env.BASE_URL
+
 export default function FCWoodTable() {
     const { t } = useTranslation()
 
@@ -141,11 +143,11 @@ export default function FCWoodTable() {
                     {tool.group && tool.group.length > 0 ? (
                         <div className="group-img-container">
                             {tool.group.map((img, i) => (
-                                <img key={i} src={`/logo/${img}-logo.webp`} alt={img} />
+                                <img key={i} src={`${BASE_URL}logo/${img}-logo.webp`} alt={img} />
                             ))}
                         </div>
                     ) : (
-                        <img src={`/logo/${tool.img || tool.name}-logo.webp`} alt={tool.name} />
+                        <img src={`${BASE_URL}logo/${tool.img || tool.name}-logo.webp`} alt={tool.name} />
                     )}
                 </div>
             ))}
@@ -165,11 +167,11 @@ export default function FCWoodTable() {
                     {selectedTool.group && selectedTool.group.length > 0 ? (
                         <div className="group-img-container">
                             {selectedTool.group.map((img, i) => (
-                                <img key={i} src={`/logo/${img}-logo.webp`} alt={img} />
+                                <img key={i} src={`${BASE_URL}logo/${img}-logo.webp`} alt={img} />
                             ))}
                         </div>
                     ) : (
-                        <img src={`/logo/${selectedTool.img || selectedTool.name}-logo.webp`} alt={selectedTool.name} />
+                        <img src={`${BASE_URL}logo/${selectedTool.img || selectedTool.name}-logo.webp`} alt={selectedTool.name} />
                     )}
 
                     {/* Tool Info */}
@@ -201,11 +203,11 @@ export default function FCWoodTable() {
             <div className="container">
                 <div className="inner">
                     {/* Header carved image */}
-                    <img src="./objects/my-skills-carved.webp" alt="my-skills" className='carved' />
+                    <img src={`${BASE_URL}objects/my-skills-carved.webp`} alt="my-skills" className='carved' />
 
                     {/* Switch selector */}
                     <div className='switch-container'>
-                        <img className='switch' src="./objects/switch.webp" alt="switch" />
+                        <img className='switch' src={`${BASE_URL}objects/switch.webp`} alt="switch" />
                         <div className='text-container'>
                             <div className='text-inner'
                                 style={{
@@ -223,7 +225,7 @@ export default function FCWoodTable() {
                         <div className='arrows-container'>
                             <img
                                 className={`left-arrow ${indexSwitch === 0 ? 'disabled' : ''}`}
-                                src="./objects/switch-left-arrow.webp"
+                                src={`${BASE_URL}objects/switch-left-arrow.webp`}
                                 alt="left-arrow"
                             />
                             <div
@@ -232,7 +234,7 @@ export default function FCWoodTable() {
                             />
                             <img
                                 className={`right-arrow ${indexSwitch === switchContainer.length - 1 ? 'disabled' : ''}`}
-                                src="./objects/switch-right-arrow.webp"
+                                src={`${BASE_URL}objects/switch-right-arrow.webp`}
                                 alt="right-arrow"
                             />
                             <div
