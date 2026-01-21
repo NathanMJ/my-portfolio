@@ -1,0 +1,84 @@
+{
+    "header": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "Software Engineer",
+        "subtitle": "Junior developer but Senior skills."
+    },
+    "lab": {
+        "title": "My Lab",
+        "description": "Explore my experiments and side projects",
+        "projects": {
+            "chessHelp": {
+                "title": "Chess Help",
+                "description": "A strategic assistant that analyzes your board in real-time to suggest the best moves."
+            },
+            "pentamino": {
+                "title": "Pentamino Problem Solver",
+                "description": "A solving algorithm capable of tackling custom pentomino configurations and puzzles."
+            },
+            "pokeRuppin": {
+                "title": "PokeRuppin",
+                "description": "A parody RPG featuring students and staff from the school in a humorous adventure."
+            }
+        }
+    },
+    "woodTable": {
+        "title": "My Skills",
+        "sections": {
+            "off": "Off",
+            "frontend": "Front-End",
+            "backend": "Back-End"
+        },
+        "ui": {
+            "yearsExperience": "years experience",
+            "projects": "Projects"
+        },
+        "tools": {
+            "htmlCssJs": "HTML CSS JS",
+            "visualAssets": "Visual Assets",
+            "react": "React/React-Native",
+            "davinciResolve": "DaVinci Resolve",
+            "flStudio": "FL Studio",
+            "python": "Python",
+            "csharp": "C#",
+            "nodeJs": "Node.js",
+            "java": "Java",
+            "mongodb": "MongoDB",
+            "sql": "SQL"
+        },
+        "projectsList": {
+            "battleship": "Battleship game - 2023",
+            "shop4animals": "shop4animals website - 2024",
+            "chessHelp": "Chess Help - 2025",
+            "focalya": "Focalya website - 2025",
+            "kmoovan": "Kmoovan website - 2025",
+            "eretzkids": "Eretzkids website - 2025",
+            "eretzkidsAssets": "Assets for Eretzkids - 2025",
+            "dinnerWebsite": "Dinner website - 2025",
+            "chessHelp2025": "Chess Help - 2025",
+            "dinnerApp": "Dinner app - 2025",
+            "youtubeEditing": "YouTube video editing - 2020 > 2024",
+            "youtubeRemix": "YouTube video remix - 2020 > 2024",
+            "videoGames": "Video games - 2021",
+            "fightList": "Fight List game cheat extension",
+            "licensePlate": "License plate scanner security",
+            "pentamino": "Pentamino problem solver - 2024",
+            "dinnerAppServer": "Dinner app server - 2025",
+            "dinnerWebsiteServer": "Dinner website server - 2025",
+            "snakeApp": "Snake app - 2023",
+            "memoryApp": "Memory app - 2024",
+            "dinnerWebsiteDb": "Dinner website database - 2025",
+            "dinnerAppDb": "Dinner app database - 2025"
+        }
+    },
+    "common": {
+        "learnMore": "Learn more",
+        "viewProject": "View project",
+        "contactMe": "Contact me"
+    }
+}

@@ -1,21 +1,22 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
-import FCTimer from './FuncComps/FCTimer'
-import FCInfiniteLogos from './FuncComps/FCInfiniteLogos';
-import { Route, Routes } from 'react-router-dom';
-import MainPage from './Pages/MainPage.jsx';
-
+import { useEffect, useRef, useState } from 'react';
+import FCWoodTable from './FunComps/FCWoodTable';
+import FCLabSection from './FunComps/FCLab';
+import FCHeader from './FunComps/FCHeader';
+import FCHero from './FunComps/FCHero';
 function App() {
 
 
 
-  const [langague, setLanguage] = useState('en')
 
-  return <>
-    <Routes>
-      <Route path='/my-portfolio/' element={<MainPage langague={langague} setLanguage={setLanguage}/>}></Route>
-    </Routes>
-  </>
 
+  return (
+    <>
+      <FCHeader />
+      <FCHero/>
+      <FCWoodTable/>
+      <FCLabSection/>
+    </>
+  )
 }
 
 export default App

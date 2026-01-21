@@ -1,0 +1,84 @@
+{
+    "header": {
+        "home": "בית",
+        "about": "אודות",
+        "projects": "פרויקטים",
+        "contact": "צור קשר"
+    },
+    "hero": {
+        "title": "מהנדס תוכנה",
+        "subtitle": "מפתח ג'וניור עם כישורי סניור."
+    },
+    "lab": {
+        "title": "המעבדה שלי",
+        "description": "גלו את הניסויים והפרויקטים האישיים שלי",
+        "projects": {
+            "chessHelp": {
+                "title": "עזרה בשחמט",
+                "description": "עוזר אסטרטגי שמנתח את הלוח שלך בזמן אמת כדי להציע את המהלכים הטובים ביותר."
+            },
+            "pentamino": {
+                "title": "פותר פנטומינו",
+                "description": "אלגוריתם פתרון המסוגל להתמודד עם תצורות ופאזלים מותאמים אישית של פנטומינו."
+            },
+            "pokeRuppin": {
+                "title": "פוקה-רופין",
+                "description": "משחק תפקידים פרודי המציג סטודנטים וצוות מבית הספר בהרפתקה הומוריסטית."
+            }
+        }
+    },
+    "woodTable": {
+        "title": "הכישורים שלי",
+        "sections": {
+            "off": "Off",
+            "frontend": "Front-End",
+            "backend": "Back-End"
+        },
+        "ui": {
+            "yearsExperience": "שנות ניסיון",
+            "projects": "פרויקטים"
+        },
+        "tools": {
+            "htmlCssJs": "HTML CSS JS",
+            "visualAssets": "נכסים ויזואליים",
+            "react": "React/React-Native",
+            "davinciResolve": "DaVinci Resolve",
+            "flStudio": "FL Studio",
+            "python": "Python",
+            "csharp": "C#",
+            "nodeJs": "Node.js",
+            "java": "Java",
+            "mongodb": "MongoDB",
+            "sql": "SQL"
+        },
+        "projectsList": {
+            "battleship": "משחק ספינות קרב - 2023",
+            "shop4animals": "אתר shop4animals - 2024",
+            "chessHelp": "עזרה בשחמט - 2025",
+            "focalya": "אתר Focalya - 2025",
+            "kmoovan": "אתר Kmoovan - 2025",
+            "eretzkids": "אתר Eretzkids - 2025",
+            "eretzkidsAssets": "נכסים ל-Eretzkids - 2025",
+            "dinnerWebsite": "אתר Dinner - 2025",
+            "chessHelp2025": "עזרה בשחמט - 2025",
+            "dinnerApp": "אפליקציית Dinner - 2025",
+            "youtubeEditing": "עריכת וידאו יוטיוב - 2020 > 2024",
+            "youtubeRemix": "רמיקס וידאו יוטיוב - 2020 > 2024",
+            "videoGames": "משחקי וידאו - 2021",
+            "fightList": "תוסף רמאות Fight List",
+            "licensePlate": "סורק לוחית רישוי אבטחה",
+            "pentamino": "פותר פנטומינו - 2024",
+            "dinnerAppServer": "שרת אפליקציית Dinner - 2025",
+            "dinnerWebsiteServer": "שרת אתר Dinner - 2025",
+            "snakeApp": "אפליקציית Snake - 2023",
+            "memoryApp": "אפליקציית Memory - 2024",
+            "dinnerWebsiteDb": "מסד נתונים אתר Dinner - 2025",
+            "dinnerAppDb": "מסד נתונים אפליקציית Dinner - 2025"
+        }
+    },
+    "common": {
+        "learnMore": "למידע נוסף",
+        "viewProject": "צפה בפרויקט",
+        "contactMe": "צור קשר"
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "header": {
+        "home": "Accueil",
+        "about": "À propos",
+        "projects": "Projets",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "Ingénieur Logiciel",
+        "subtitle": "Développeur junior mais compétences senior."
+    },
+    "lab": {
+        "title": "Mon Labo",
+        "description": "Explorez mes expérimentations et projets personnels",
+        "projects": {
+            "chessHelp": {
+                "title": "Chess Help",
+                "description": "Un assistant stratégique qui analyse votre plateau en temps réel pour suggérer les meilleurs coups."
+            },
+            "pentamino": {
+                "title": "Pentamino Problem Solver",
+                "description": "Un algorithme de résolution capable de venir à bout de configurations et puzzles de pentaminos personnalisés."
+            },
+            "pokeRuppin": {
+                "title": "PokeRuppin",
+                "description": "Un RPG parodique mettant en scène les étudiants et le personnel de l'école dans une aventure humoristique."
+            }
+        }
+    },
+    "woodTable": {
+        "title": "Mes Compétences",
+        "sections": {
+            "off": "Off",
+            "frontend": "Front-End",
+            "backend": "Back-End"
+        },
+        "ui": {
+            "yearsExperience": "ans d'expérience",
+            "projects": "Projets"
+        },
+        "tools": {
+            "htmlCssJs": "HTML CSS JS",
+            "visualAssets": "Assets Visuels",
+            "react": "React/React-Native",
+            "davinciResolve": "DaVinci Resolve",
+            "flStudio": "FL Studio",
+            "python": "Python",
+            "csharp": "C#",
+            "nodeJs": "Node.js",
+            "java": "Java",
+            "mongodb": "MongoDB",
+            "sql": "SQL"
+        },
+        "projectsList": {
+            "battleship": "Jeu de bataille navale - 2023",
+            "shop4animals": "Site web shop4animals - 2024",
+            "chessHelp": "Chess Help - 2025",
+            "focalya": "Site web Focalya - 2025",
+            "kmoovan": "Site web Kmoovan - 2025",
+            "eretzkids": "Site web Eretzkids - 2025",
+            "eretzkidsAssets": "Assets pour Eretzkids - 2025",
+            "dinnerWebsite": "Site web Dinner - 2025",
+            "chessHelp2025": "Chess Help - 2025",
+            "dinnerApp": "Application Dinner - 2025",
+            "youtubeEditing": "Montage vidéo YouTube - 2020 > 2024",
+            "youtubeRemix": "Remix vidéo YouTube - 2020 > 2024",
+            "videoGames": "Jeux vidéo - 2021",
+            "fightList": "Extension de triche Fight List",
+            "licensePlate": "Scanner de plaque d'immatriculation sécurité",
+            "pentamino": "Solveur de pentamino - 2024",
+            "dinnerAppServer": "Serveur application Dinner - 2025",
+            "dinnerWebsiteServer": "Serveur site web Dinner - 2025",
+            "snakeApp": "Application Snake - 2023",
+            "memoryApp": "Application Memory - 2024",
+            "dinnerWebsiteDb": "Base de données site Dinner - 2025",
+            "dinnerAppDb": "Base de données app Dinner - 2025"
+        }
+    },
+    "common": {
+        "learnMore": "En savoir plus",
+        "viewProject": "Voir le projet",
+        "contactMe": "Me contacter"
+    }
+}

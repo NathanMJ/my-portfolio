@@ -1,0 +1,11 @@
+@import url('reset.css');
+@import url('header.css');
+@import url('hero.css');
+@import url('wood-table.css');
+@import url('my-lab.css');
+
+:root {
+    --noir-charbon: #0a0a0a;
+    --blue-laser-color: #00d4ff;
+    --header-color: rgb(19, 46, 69);
+}
