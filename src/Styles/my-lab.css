@@ -1,5 +1,6 @@
 .my-lab {
-  height: clamp(600px, 80vh, 1200px);
+  /* height: clamp(600px, 80vh, 1200px); */
+  height: 100vh;
   background-image: url('/public/hero/background-hero.webp');
   background-position: center;
   background-size: cover;
@@ -122,7 +123,8 @@
   padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* Retirer space-between pour un layout naturel */
+  gap: 10px;
   height: 100%;
   box-sizing: border-box;
   color: white;
@@ -145,12 +147,14 @@
   text-shadow: 0 0 8px var(--holo-blue);
   text-transform: uppercase;
   letter-spacing: 1px;
+  /* Prend seulement l'espace nécessaire */
+  flex-shrink: 0;
 }
 
 .panel-image-container {
-  /* S'adapte à la hauteur de l'image */
-  flex-shrink: 0;
-  margin: 15px auto;
+  /* Prend tout l'espace restant */
+  flex: 1;
+  min-height: 0;
   background: rgba(0, 30, 100, 0.4);
   border: 1px solid var(--holo-blue);
   border-radius: 10px;
@@ -164,8 +168,9 @@
 
 .panel-image {
   width: 100%;
-  object-fit: contain;
-  opacity: 0.5
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
 }
 
 .panel-image-placeholder {
@@ -182,6 +187,8 @@
   border-radius: 0 0 10px 10px;
   font-size: clamp(10px, 2vw, 16px);
   text-shadow: 0 0 5px var(--holo-blue);
+  /* Prend seulement l'espace nécessaire */
+  flex-shrink: 0;
 }
 
 .controls {
